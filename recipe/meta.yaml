@@ -19,7 +19,6 @@ requirements:
   build:
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
-    - cross-python_{{ target_platform }}
   host:
     - python
     - setuptools
